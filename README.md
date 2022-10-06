@@ -1,1 +1,1 @@
-when  clicks on buttons play the music 
+when  clicks on buttons plays the music 
