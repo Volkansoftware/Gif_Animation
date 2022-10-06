@@ -38,10 +38,10 @@ function App() {
  
 
 <div className='test absolute bottom-6 '>
-  {isTest ? <a href="https://forms.gle/tHxBHx59XSScRPbt9" target="_blank" rel="noreferrer">
+  {isTest ? <a href="https://www.google.com.tr/?hl=tr" target="_blank" rel="noreferrer">
  <img onMouseOver={()=> setTest(false)} className='w-1/4 testIMg ' src={require('../src/assets/buttons/test_passive.png')} alt="gif" />   </a>:
  
- <a href="https://forms.gle/tHxBHx59XSScRPbt9" target="_blank" rel="noreferrer">
+ <a href="https://www.google.com.tr/?hl=tr" target="_blank" rel="noreferrer">
  <img onMouseLeave={()=> setTest(true)} className='w-1/4 testIMg ' src={require('../src/assets/buttons/test_active.png')} alt="gif" />   </a>}
 
 
